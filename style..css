@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #44575D;
+}
+main{
+    width: 960px;
+    height: auto;
+    margin: 0px auto;
+}
+header{
+    height: 100px;
+}
+header img{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+nav{
+    width: 940px;
+    height: 50px;
+    margin-left: 10px;
+    background: linear-gradient(#546870 , #324147);
+}
+.main-nav{
+    list-style: none;
+}
+.main-nav li{
+    float: left;
+}
+.main-nav li a{
+    display: block;
+    border-right: solid 1px #4C5F65;
+    width: 116.5px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: bold;
+    color: #6F8E96;
+}
+.main-nav li a:hover{
+    color: #fff;
+}
+.slide img{
+    margin-top: 5px;
+}
+.serv{
+    width: 940px;
+    height: 280px;
+    margin-left: 10px;
+    display: flex;
+    background: linear-gradient(#4E626B,#3E5157);
+}
+.left-serv{
+    width: 470px;
+    position: relative;
+}
+.right-serv{
+    width: 470px;
+    position: relative;
+}
+h3{
+    color: #C5F20A;
+    font-size: 14;
+    font-family: arial;
+    position: absolute;
+    top: 10px;  left: 20px;
+}
+.p1{
+    color: #fff;
+    font-size: 7;
+    font-family: arial;
+    position: absolute;
+    top: 40px;  left: 20px;
+    padding-right: 10px;
+}
+.p2{
+    color: #fff;
+    font-size: 7;
+    font-family: arial;
+    position: absolute;
+    top: 200px;  left: 20px;
+}
+.sep{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+.p3{
+    width: 235px;
+    color: #fff;
+    font-size: 7;
+    font-family: arial;
+    position: absolute;
+    top: 40px;  left: 20px;
+}
+.colores{
+    position: absolute;
+    bottom: 10px; right: 10px;
+}
+.sear{
+    position: absolute;
+    top: 10px; right: -13px;
+}
+.right-serv ul{
+    list-style-image: url(images/check1.png);
+    position: absolute;
+    top: 120px; left: 50px;
+}
+.right-serv ul li{
+    color: #fff;
+    font-size: 7;
+    font-family: arial;
+    line-height: 28px;
+}
+.offer{
+    width: 940px;
+    height: 250px;
+    margin-left: 10px;
+    background: linear-gradient(#3E5157, #4E626B);
+    position: relative;
+}
+.half{
+    width: 699px;
+    height: 2px;
+    margin-left: 100px;
+}
+.offer img{
+    position: absolute;
+    bottom: -15px;
+    right: 5px;
+}
+footer{
+    width: 960px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+}
+span{
+    color: #C5F20A;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    border-right: solid 1px #fff;
+    padding: 0px 10px;
+}
